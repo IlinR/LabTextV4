@@ -1,4 +1,2 @@
-﻿  TText.cpp
-C:\Games\LabTextV3\Source\TText.cpp(171,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Games\LabTextV3\Source\TText.cpp(212,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  LabText.exe.vcxproj -> C:\Games\LabTextV3\Build\Debug\LabText.exe.exe
+﻿  Test.cpp
+  LabText.exe.vcxproj -> C:\Users\я\Documents\GitHub\LabTextV4\Build\Debug\LabText.exe.exe
