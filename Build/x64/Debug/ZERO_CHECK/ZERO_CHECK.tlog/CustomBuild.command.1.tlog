@@ -1,0 +1,10 @@
+^C:\GAMES\LABTEXTV3\BUILD\CMAKEFILES\C05F8A40C828554975F34E3DC1B5DA48\GENERATE.STAMP.RULE
+setlocal
+"C:\Users\я\Desktop\Новая папка (2)\bin\cmake.exe" -SC:/Games/LabTextV3/Source -BC:/Games/LabTextV3/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Games/LabTextV3/Build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
